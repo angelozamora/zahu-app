@@ -11,6 +11,7 @@ function iniciarApp(e) {
 
 
     var dato = window.location.pathname;
+    console.log(dato);
     let idUrl = window.location.pathname.substring(1, dato.length - 5);
     let urlFilter = idUrl.split('-');
 
