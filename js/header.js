@@ -11,11 +11,18 @@ function iniciarApp(e) {
 
 
     var dato = window.location.pathname;
+    console.log("PATHNAME");
     console.log(dato);
     let idUrl = window.location.pathname.substring(1, dato.length - 5);
+    console.log("ID URL");
+    console.log(idUrl);
     let urlFilter = idUrl.split('-');
+    console.log("URL FILTER");
+    console.log(urlFilter);
 
     let url = document.getElementById(`${urlFilter[0]}`);
+    console.log("URL FILTER 0");
+    console.log(`${urlFilter[0]}`);
     let urlMovil = document.getElementById(`${urlFilter[0]}-movil`)
 
     url.classList.add('activar');
