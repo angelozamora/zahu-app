@@ -29,7 +29,7 @@ function login() {
 
             setTimeout(function() {
                 datosError.style.display = "none"
-            }, 3500);
+            }, 4500);
         }
 
     } else {
@@ -37,7 +37,7 @@ function login() {
 
         setTimeout(function() {
             datosVacio.style.display = "none"
-        }, 3500);
+        }, 4500);
     }
 
 }
