@@ -1,0 +1,801 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- FONT HEADER -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/moments.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+
+
+    <title>Moments</title>
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <header id="header-content">
+        <nav class="container navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand " href="index.html" id="logo">
+                <span class="ml-2 logo-app">ZAHU </span><span class="logo-app log2">APP</span>
+            </a>
+            <button class="navbar-toggler btn-toggler" type="button" data-toggle="collapse" data-target="#menu-container" aria-controls="menu-container" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/img/header/navbar-toggler.svg" alt="" class="imagen">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="index" href="index.html">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="travel" href="travel.html">TRAVEL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="moments" href="moments.html">MOMENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aniversary" href="aniversary.html">ANIVERSARY</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class=" row mx-0 w-100  collapse" id="menu-container">
+            <div class="container">
+                <div class="col-12 px-0">
+                    <div class="row mx-0 pt-1">
+                        <div class="col-12    d-flex justify-content-end" id="btn-toggler-menu-modal">
+                            <button class="navbar-toggler btn-toggler" type="button" data-toggle="collapse" data-target="#menu-container" aria-controls="menu-container" aria-label="Toggle navigation">
+                                <img src="assets/img/header/navbar-toggler.svg" alt="" class="imagen">
+                            </button>
+
+                        </div>
+                        <div class="col-12" id="navbar-menu-modal">
+                            <ul class="nav flex-column align-content-center">
+                                <li class="nav-item">
+                                    <a class="navbar-brand m-auto " href="index.html">
+                                        <span class="ml-2 logo-app-modal">ZAHU </span><span class="logo-app-modal log2">APP</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" id="index-movil" href="index.html">HOME </a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link " id="travel-movil" href="travel.html">TRAVEL</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link " id="moments-movil" href="moments.html">MOMENTS</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link " id="aniversary-movil" href="aniversary.html">ANIVERSARY</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mt-3">
+                            <div class=" menu-redSocial mx-2">
+                                <a href="#"><img src="assets/img/header/facebookLogoBlack.svg" alt=" " class="imagen "></a>
+                            </div>
+                            <div class="menu-redSocial mx-2">
+                                <a href="#"><img src="assets/img/header/instagramLogoBlack.svg" alt=" " class="imagen "></a>
+                            </div>
+                        </div>
+                        <span class="col-12 d-block  text-center menu-copy">&copy; 2021. Angelo ZT.</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container fadeIn" id="main-content">
+
+        <div class="col-12 mx-0 px-0 text-center pt-4">
+            <h1 class="titulo mb-0">ZAHU <span class="titulo-add2">MOMENTS</span></h1>
+            <h2 class="frase mb-3"> LO MEJOR DE MI DÍA ES ESTAR JUNTO A TI</h2>
+            <span class="badge badge-primary">Moment</span>
+            <span class="badge badge-warning">Funny</span>
+            <span class="badge badge-danger">Love</span>
+
+        </div>
+
+
+
+        <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3  mt-4" id="moments-content">
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment1.jpg" class="imagen" alt="">
+                        </div>
+
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+                            <p class="card-text mt-2">
+                            </p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment2.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment3.png" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment4.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment5.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment6.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment7.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment8.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment9.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment10.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment11.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment12.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment13.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment14.png" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment15.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment16.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment17.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment18.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment19.jpg" class="imagen" style="object-fit: initial;" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment20.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment21.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment22.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment23.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment24.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment25.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment26.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment27.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment28.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment29.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment30.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment31.jpg" class="imagen" alt="">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2">
+                            <h5 class="card-title mb-0">Photo <i class="fas fa-camera camera"></i></h5>
+                            <span class="badge badge-primary">Moment</span>
+                            <span class="badge badge-warning">Funny</span>
+                            <span class="badge badge-danger">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4">
+                <div class="card px-3 ">
+                    <div class="card-content">
+                        <div class="card-img btn-modal" data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment32.jpg" class=" imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4 ">
+                <div class="card px-3 ">
+                    <div class="card-content ">
+                        <div class="card-img btn-modal " data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment33.jpg" class="imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4 ">
+                <div class="card px-3 ">
+                    <div class="card-content ">
+                        <div class="card-img btn-modal " data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment35.jpg" class="imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4 ">
+                <div class="card px-3 ">
+                    <div class="card-content ">
+                        <div class="card-img btn-modal " data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment36.jpg" class="imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4 ">
+                <div class="card px-3 ">
+                    <div class="card-content ">
+                        <div class="card-img btn-modal " data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment37.jpg" class="imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-4 ">
+                <div class="card px-3 ">
+                    <div class="card-content ">
+                        <div class="card-img btn-modal " data-bs-toggle="modal" data-bs-target="#momentModal">
+                            <img src="assets/img/moments/moment38.jpg" class="imagen " alt=" ">
+                        </div>
+                        <div class="card-body px-3 py-1 mt-3 mb-2 ">
+                            <h5 class="card-title mb-0 ">Photo <i class="fas fa-camera camera "></i></h5>
+                            <span class="badge badge-primary ">Moment</span>
+                            <span class="badge badge-warning ">Funny</span>
+                            <span class="badge badge-danger ">Love</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade " id="momentModal" tabindex="-1 " aria-labelledby="momentModalLabel" aria-hidden="true ">
+            <div class="modal-dialog ">
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <h5 class="modal-title " id="exampleModalLabel">Photo Moment </h5>
+                        <button type="button " class="close " data-dismiss="modal " aria-label="Close ">
+                            <span aria-hidden="true ">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+
+                    </div>
+                    <div class="modal-footer ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrpa4.js-->
+    <script src="assets/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js "></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js "></script>
+
+    <script src="js/snow.js "></script>
+
+    <script src="js/header.js "></script>
+    <script src="js/moments.js "></script>
+
+</body>
+
+</html>

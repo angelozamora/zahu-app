@@ -1,0 +1,44 @@
+.frase {
+    font-size: 1.3rem;
+    color: white !important;
+    font-weight: lighter;
+}
+
+#moments-content {
+    padding: 16px 35px;
+}
+
+.card-content {
+    margin-top: -1.7rem;
+}
+
+.card-img {
+    height: 18rem;
+}
+
+.card-img img {
+    border-radius: 0.3rem;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-title,
+.camera {
+    color: #17a2b8 !important;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .frase {
+        font-size: 1rem;
+    }
+    .card-img {
+        height: 15rem;
+    }
+}

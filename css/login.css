@@ -1,0 +1,123 @@
+body {
+    width: 100%;
+}
+
+
+/******* ALERTA DIV *******/
+
+.alert-div {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+}
+
+#datos-error,
+#datos-vacio {
+    display: none;
+}
+
+
+/***** CONTAINER ******/
+
+.container-fluid {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.imagen {
+    border-radius: 100%;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.logo-app {
+    font-size: 3.2rem;
+    font-family: 'MaryKaySans-Semibold';
+    border-radius: 1rem;
+}
+
+#titulo-login {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.1rem 1rem;
+}
+
+#login {
+    min-height: 90vh;
+    color: white;
+}
+
+#login-content {
+    margin-top: 7rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(151, 151, 151);
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    background-color: rgba(0, 0, 0, 0.30);
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+}
+
+#log-form {
+    position: relative;
+    width: 6.4rem;
+    margin: 0 auto 3rem auto;
+}
+
+#logo-form {
+    position: absolute;
+    width: 6.4rem;
+    height: 6.4rem;
+    top: -3.5rem;
+    border-radius: 100%;
+    border: 1px solid rgb(151, 151, 151);
+    background-color: white;
+}
+
+.zahu-text {
+    font-size: 1.2rem;
+    font-family: 'MaryKaySans-Medium';
+}
+
+#info-content {
+    position: relative;
+    background-color: transparent;
+    top: 4.5rem;
+    color: white;
+}
+
+.foto-content {
+    width: 9.5rem;
+    height: 9.5rem;
+    border: 1px solid rgb(128, 126, 126);
+}
+
+.foto {
+    width: 88%;
+    height: 69%;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    margin: 24% auto 0 auto;
+}
+
+.img-content {
+    width: 25rem;
+}
+
+#info-content2 {
+    display: none;
+}
+
+#form-login span {
+    cursor: pointer;
+}
+
+@media (max-width: 990px) {
+    #info-content {
+        display: none;
+    }
+    #login-content {
+        margin-top: 5rem;
+    }
+    #info-content2 {
+        display: block;
+    }
+}

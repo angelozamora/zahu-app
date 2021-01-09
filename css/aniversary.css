@@ -1,0 +1,123 @@
+body {
+    background: rgb(51, 47, 182);
+    background: linear-gradient(90deg, rgba(35, 30, 175, 0.928) 0%, rgb(102, 28, 206) 55%, rgb(90, 13, 206) 100%);
+}
+
+#aniversary-container {
+    height: calc(100vh - 65px);
+    position: relative;
+    max-width: 1500px;
+    margin-top: 65px;
+}
+
+#aniversary-content {
+    height: 100%;
+    max-height: 1000px;
+    overflow-x: hidden;
+}
+
+.aniversary-img {
+    height: 100%;
+    position: relative;
+}
+
+.aniversary-anio {
+    position: absolute;
+    height: 50px;
+    width: 30%;
+    background-image: url(../assets/img/aniversary-anio.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 2%;
+    right: 0;
+}
+
+.text-year {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'MaryKaySans-Semibold';
+}
+
+
+/**** ANIVERSARY INFO *********/
+
+.aniversary-info {
+    /* background-color: white;
+     */
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    /* background-image: linear-gradient(120deg, #a6c0fe 20%, #f68084 100%); */
+}
+
+.aniversary-info2 {
+    display: none;
+}
+
+.titulo-aniversary {
+    font-size: 3.9rem;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+
+.fecha-aniversary {
+    font-size: 1.3rem;
+    font-family: 'MaryKaySans-Medium';
+    color: #ff5776;
+    padding: 0.4rem 0;
+    background-image: url(../assets/img/aniversary-fecha.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-moment {
+    border: 2px solid #ffc8d2 !important;
+    background-color: #ffc8d2;
+}
+
+.btn-moment a {
+    color: #ff5776 !important;
+}
+
+.btn-moment:hover {
+    border: 2px solid #ff5776 !important;
+    background-color: #ff5776;
+}
+
+.btn-moment:hover a {
+    color: white !important;
+}
+
+@media(max-width: 991px) {
+    .aniversary-img {
+        height: 400px;
+    }
+    .aniversary-anio {
+        height: auto;
+        width: 100%;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        background-image: none;
+        background-color: #FF5776;
+        padding: 8px 0;
+    }
+    /**** ANIVERSARY INFO *********/
+    .aniversary-info {
+        height: min-content;
+        min-height: calc(100% - 400px);
+    }
+    .aniversary-info1 {
+        display: none;
+    }
+    .aniversary-info2 {
+        display: block;
+        padding: 30px 0;
+    }
+    .titulo-aniversary {
+        font-size: 2.5rem;
+    }
+    .fecha-aniversary {
+        font-size: 1rem;
+        background-size: 100%;
+    }
+}
