@@ -23,7 +23,7 @@ function login() {
 
     if (userLog != '' && passLog != '') {
         if (userLog == 'zahu05' && passLog == 'zahu05') {
-            window.location = "index.html"
+            window.location = "home.html"
         } else {
             datosError.style.display = "block"
 
