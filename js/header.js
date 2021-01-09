@@ -17,13 +17,14 @@ function iniciarApp(e) {
     console.log("ID URL");
     console.log(idUrl);
     let urlFilter = idUrl.split('/');
+    let urlFilter = urlFilter.split('-');
     console.log("URL FILTER");
     console.log(urlFilter);
 
-    let url = document.getElementById(`${urlFilter[1]}`);
-    console.log("URL FILTER 1");
-    console.log(`${urlFilter[1]}`);
-    let urlMovil = document.getElementById(`${urlFilter[1]}-movil`)
+    let url = document.getElementById(`${urlFilter[0]}`);
+    console.log("URL FILTER 0");
+    console.log(`${urlFilter[0]}`);
+    let urlMovil = document.getElementById(`${urlFilter[0]}-movil`)
 
     url.classList.add('activar');
     urlMovil.classList.add('activar');

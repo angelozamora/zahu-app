@@ -13,7 +13,7 @@ function eventListener() {
 
 function iniciarModal(e) {
     e.preventDefault();
-    console.log('inicio modal')
+
 
     if (e.target.classList.contains('imagen')) {
         let img = e.target.getAttribute('src');
