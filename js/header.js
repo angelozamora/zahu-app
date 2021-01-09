@@ -17,8 +17,10 @@ function iniciarApp(e) {
     console.log("ID URL");
     console.log(idUrl);
     let urlFilter = idUrl.split('/');
-    let urlFilter = urlFilter.split('-');
     console.log("URL FILTER");
+    console.log(urlFilter);
+    let urlFilter = urlFilter.split('-');
+    console.log("URL FILTER 2");
     console.log(urlFilter);
 
     let url = document.getElementById(`${urlFilter[0]}`);
