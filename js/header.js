@@ -19,7 +19,7 @@ function iniciarApp(e) {
     let urlFilter = idUrl.split('/');
     console.log("URL FILTER");
     console.log(urlFilter);
-    let urlFilter2 = urlFilter.split('-');
+    let urlFilter2 = urlFilter[1].split('-');
     console.log("URL FILTER 2");
     console.log(urlFilter2);
 
