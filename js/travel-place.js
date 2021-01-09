@@ -8,12 +8,10 @@ function eventListener() {
 
     photoContent.addEventListener('click', iniciarModal);
 
-
 }
 
 function iniciarModal(e) {
     e.preventDefault();
-
 
     if (e.target.classList.contains('imagen')) {
         let img = e.target.getAttribute('src');
