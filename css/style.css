@@ -125,7 +125,7 @@ a:hover {
     z-index: 2000;
     position: absolute;
     top: 0;
-    padding: 0.5rem 0.2rem;
+    padding: 8px 0.2rem;
 }
 
 #menu-container .container {
